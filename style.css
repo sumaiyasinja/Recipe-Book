@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.subheader{
+    text-align: center;
+    /* font-weight: 400; */
+    font-size: 2rem;
+    padding: 10px;
+}
+.recipe-title{
+    text-align: center;
+    /* font-weight: 400; */
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.recipes{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 40px 0px;
+    flex-wrap: wrap;
+}
+.cover-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+.cover-img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+/* <h2>Name: ${data[i].recipeName}</h2>
+<p>cuisine: ${data[i].cuisine}</p>
+<p>servings: ${data[i].servings}</p>
+<p>prepTime: ${data[i].prepTime}</p>
+<p>Cook Time: ${data[i].cookTime}</p>
+<img src='${data[i].coverImage}' alt="${data[i].recipeName}"> */

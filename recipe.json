@@ -1,113 +1,116 @@
 [
     {
-      "recipeName": "Butter Chicken",
-      "cuisine": "Indian",
-      "ingredients": [
-        "500g boneless, skinless chicken thighs, cut into bite-sized pieces",
-        "1 cup plain yogurt",
-        "2 tablespoons garam masala",
-        "1 tablespoon ground turmeric",
-        "1 tablespoon ground cumin",
-        "1 tablespoon chili powder",
-        "1 tablespoon ginger-garlic paste",
-        "1 cup tomato puree",
-        "1/2 cup unsalted butter",
-        "1 cup heavy cream",
-        "Salt and pepper to taste",
-        "Fresh coriander leaves for garnish"
-      ],
-      "instructions": [
-        "In a bowl, marinate chicken with yogurt, garam masala, turmeric, cumin, chili powder, and ginger-garlic paste. Refrigerate for at least 2 hours.",
-        "In a pan, melt butter and add marinated chicken. Cook until browned.",
-        "Stir in tomato puree and simmer for 15 minutes.",
-        "Pour in heavy cream, season with salt and pepper, and cook for an additional 10 minutes.",
-        "Garnish with fresh coriander leaves. Serve hot with naan or rice. Enjoy your Butter Chicken!"
-      ],
-      "servings": 4,
-      "prepTime": "2 hours",
-      "cookTime": "30 minutes",
-      "coverImage": "https://masalaandchai.com/wp-content/uploads/2022/03/Butter-Chicken.jpg"
+        "id": 1,
+        "recipeName": "Butter Chicken",
+        "cuisine": "Indian",
+        "ingredients": [
+            "500g boneless, skinless chicken thighs, cut into bite-sized pieces",
+            "1 cup plain yogurt",
+            "2 tablespoons garam masala",
+            "1 tablespoon ground turmeric",
+            "1 tablespoon ground cumin",
+            "1 tablespoon chili powder",
+            "1 tablespoon ginger-garlic paste",
+            "1 cup tomato puree",
+            "1/2 cup unsalted butter",
+            "1 cup heavy cream",
+            "Salt and pepper to taste",
+            "Fresh coriander leaves for garnish"
+        ],
+        "instructions": [
+            "In a bowl, marinate chicken with yogurt, garam masala, turmeric, cumin, chili powder, and ginger-garlic paste. Refrigerate for at least 2 hours.",
+            "In a pan, melt butter and add marinated chicken. Cook until browned.",
+            "Stir in tomato puree and simmer for 15 minutes.",
+            "Pour in heavy cream, season with salt and pepper, and cook for an additional 10 minutes.",
+            "Garnish with fresh coriander leaves. Serve hot with naan or rice. Enjoy your Butter Chicken!"
+        ],
+        "servings": 4,
+        "prepTime": "2 hours",
+        "cookTime": "30 minutes",
+        "coverImage": "https://masalaandchai.com/wp-content/uploads/2022/03/Butter-Chicken.jpg"
     },
     {
-      "recipeName": "Chicken Bhuna",
-      "cuisine": "Bangladeshi",
-      "ingredients": [
-        "1 kg chicken, cut into pieces",
-        "3 large onions, finely chopped",
-        "2 tomatoes, chopped",
-        "1/4 cup vegetable oil",
-        "2 tablespoons ginger-garlic paste",
-        "1 tablespoon red chili powder",
-        "1 tablespoon ground coriander",
-        "1 tablespoon ground cumin",
-        "1 teaspoon turmeric powder",
-        "Salt to taste",
-        "Fresh coriander leaves for garnish"
-      ],
-      "instructions": [
-        "Heat oil in a pan and sauté chopped onions until golden brown.",
-        "Add ginger-garlic paste and sauté for 2 minutes.",
-        "Add chopped tomatoes, red chili powder, ground coriander, ground cumin, turmeric powder, and salt. Cook until the oil separates.",
-        "Add chicken pieces and cook until they are well-coated with the spice mixture.",
-        "Add water, cover, and simmer until the chicken is cooked through.",
-        "Garnish with fresh coriander leaves. Serve hot with rice or flatbread. Enjoy your Chicken Bhuna!"
-      ],
-      "servings": 6,
-      "prepTime": "20 minutes",
-      "cookTime": "45 minutes",
-      "coverImage": "https://i.ibb.co/w4bjtWF/Bhuna-Chicken-min.jpg"
+        "id": 2,
+        "recipeName": "Chicken Bhuna",
+        "cuisine": "Bangladeshi",
+        "ingredients": [
+            "1 kg chicken, cut into pieces",
+            "3 large onions, finely chopped",
+            "2 tomatoes, chopped",
+            "1/4 cup vegetable oil",
+            "2 tablespoons ginger-garlic paste",
+            "1 tablespoon red chili powder",
+            "1 tablespoon ground coriander",
+            "1 tablespoon ground cumin",
+            "1 teaspoon turmeric powder",
+            "Salt to taste",
+            "Fresh coriander leaves for garnish"
+        ],
+        "instructions": [
+            "Heat oil in a pan and sauté chopped onions until golden brown.",
+            "Add ginger-garlic paste and sauté for 2 minutes.",
+            "Add chopped tomatoes, red chili powder, ground coriander, ground cumin, turmeric powder, and salt. Cook until the oil separates.",
+            "Add chicken pieces and cook until they are well-coated with the spice mixture.",
+            "Add water, cover, and simmer until the chicken is cooked through.",
+            "Garnish with fresh coriander leaves. Serve hot with rice or flatbread. Enjoy your Chicken Bhuna!"
+        ],
+        "servings": 6,
+        "prepTime": "20 minutes",
+        "cookTime": "45 minutes",
+        "coverImage": "https://i.ibb.co/w4bjtWF/Bhuna-Chicken-min.jpg"
     },
     {
-      "recipeName": "Margherita Pizza",
-      "cuisine": "Italian",
-      "ingredients": [
-        "Pizza dough (store-bought or homemade)",
-        "1/2 cup pizza sauce",
-        "1 1/2 cups fresh mozzarella, sliced",
-        "Fresh basil leaves",
-        "2 tablespoons extra-virgin olive oil",
-        "Salt and pepper to taste"
-      ],
-      "instructions": [
-        "Preheat your oven to the highest temperature (usually around 475°F or 245°C).",
-        "Roll out the pizza dough on a floured surface to your desired thickness.",
-        "Spread pizza sauce evenly over the dough, leaving a small border around the edges.",
-        "Place slices of fresh mozzarella on top of the sauce.",
-        "Drizzle with extra-virgin olive oil and season with salt and pepper.",
-        "Bake in the preheated oven for 10-12 minutes or until the crust is golden and the cheese is bubbly.",
-        "Remove from the oven, sprinkle fresh basil leaves on top, and slice. Enjoy your Margherita Pizza!"
-      ],
-      "servings": 4,
-      "prepTime": "15 minutes",
-      "cookTime": "12 minutes",
-      "coverImage": "https://veenaazmanov.com/wp-content/uploads/2020/04/Classic-Pizza-Margherita1.jpg"
+        "id": 3,
+        "recipeName": "Margherita Pizza",
+        "cuisine": "Italian",
+        "ingredients": [
+            "Pizza dough (store-bought or homemade)",
+            "1/2 cup pizza sauce",
+            "1 1/2 cups fresh mozzarella, sliced",
+            "Fresh basil leaves",
+            "2 tablespoons extra-virgin olive oil",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Preheat your oven to the highest temperature (usually around 475°F or 245°C).",
+            "Roll out the pizza dough on a floured surface to your desired thickness.",
+            "Spread pizza sauce evenly over the dough, leaving a small border around the edges.",
+            "Place slices of fresh mozzarella on top of the sauce.",
+            "Drizzle with extra-virgin olive oil and season with salt and pepper.",
+            "Bake in the preheated oven for 10-12 minutes or until the crust is golden and the cheese is bubbly.",
+            "Remove from the oven, sprinkle fresh basil leaves on top, and slice. Enjoy your Margherita Pizza!"
+        ],
+        "servings": 4,
+        "prepTime": "15 minutes",
+        "cookTime": "12 minutes",
+        "coverImage": "https://veenaazmanov.com/wp-content/uploads/2020/04/Classic-Pizza-Margherita1.jpg"
     },
     {
-      "recipeName": "Classic Cheeseburger",
-      "cuisine": "American",
-      "ingredients": [
-        "1 lb ground beef",
-        "Salt and pepper to taste",
-        "4 hamburger buns",
-        "4 slices cheddar cheese",
-        "Lettuce leaves",
-        "Tomato slices",
-        "Onion slices",
-        "Ketchup and mustard for topping"
-      ],
-      "instructions": [
-        "Divide the ground beef into 4 equal portions and shape them into patties. Season with salt and pepper.",
-        "Preheat your grill or stovetop pan over medium-high heat.",
-        "Grill the burger patties for 3-4 minutes per side or until they reach your desired doneness.",
-        "During the last minute of cooking, place a slice of cheddar cheese on each patty and cover to melt.",
-        "Toast the hamburger buns on the grill or in a toaster.",
-        "Assemble the burgers with lettuce, tomato, onion, and your favorite condiments.",
-        "Serve hot. Enjoy your Classic Cheeseburger!"
-      ],
-      "servings": 4,
-      "prepTime": "10 minutes",
-      "cookTime": "8 minutes",
-      "coverImage": "https://natashaskitchen.com/wp-content/uploads/2023/06/Cheeseburger-2.jpg"
+        "id": 4,
+        "recipeName": "Classic Cheeseburger",
+        "cuisine": "American",
+        "ingredients": [
+            "1 lb ground beef",
+            "Salt and pepper to taste",
+            "4 hamburger buns",
+            "4 slices cheddar cheese",
+            "Lettuce leaves",
+            "Tomato slices",
+            "Onion slices",
+            "Ketchup and mustard for topping"
+        ],
+        "instructions": [
+            "Divide the ground beef into 4 equal portions and shape them into patties. Season with salt and pepper.",
+            "Preheat your grill or stovetop pan over medium-high heat.",
+            "Grill the burger patties for 3-4 minutes per side or until they reach your desired doneness.",
+            "During the last minute of cooking, place a slice of cheddar cheese on each patty and cover to melt.",
+            "Toast the hamburger buns on the grill or in a toaster.",
+            "Assemble the burgers with lettuce, tomato, onion, and your favorite condiments.",
+            "Serve hot. Enjoy your Classic Cheeseburger!"
+        ],
+        "servings": 4,
+        "prepTime": "10 minutes",
+        "cookTime": "8 minutes",
+        "coverImage": "https://natashaskitchen.com/wp-content/uploads/2023/06/Cheeseburger-2.jpg"
     }
-  ]
-  
+]

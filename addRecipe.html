@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Links -->
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <title>Recipe Book | Add</title>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .add-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .add-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+      
+        <!-- navbar -->
+        <section class="navbar">
+            <!-- <section class="logo-section">
+                <img src="/assets/img/logo.png" alt="">
+            </section> -->
+            <nav>
+                <ul class="nav-ul">
+                    <li class="nav-list"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-list"><p class="nav-link" id="addRecipe">Add</p></li>
+                    <li class="nav-list"><a class="nav-link" href="/details/:id">Details</a></li>
+              
+                </ul>
+            </nav>
+        </section>
+        <section class="banner ">
+            <div>
+                <img class="banner-img" src="https://i.ibb.co/T1RMGpH/banner.png" alt="">
+            </div>
+            <div>
+                <h1 class="header">Recipe Book</h1>
+                <p>Get your favorite recipes here.</p>
+                <button class="btn">
+                    <div>GET STARTED</div>
+                    <svg fill="none" viewBox="0 0 24 24" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="white" d="M11.6801 14.62L14.2401 12.06L11.6801 9.5"></path>
+                  <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="white" d="M4 12.0601H14.17"></path>
+                  <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="white" d="M12 4C16.42 4 20 7 20 12C20 17 16.42 20 12 20"></path>
+                  </svg>
+                  </button>
+
+            </div>
+        </section>
+        
+    </header>
+    <h2 class=" subheader  ">Add A New Recipe</h2>
+    <form id="addRecipeForm">
+        <label for="recipeName">Recipe Name:</label>
+        <input type="text" id="recipeName" name="recipeName" required placeholder="Enter recipe name">
+
+        <label for="cuisine">Cuisine:</label>
+        <input type="text" id="cuisine" name="cuisine" required placeholder="Enter cuisine">
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" rows="4" required placeholder="Enter ingredients"></textarea>
+
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" name="instructions" rows="4" required placeholder="Enter instructions"></textarea>
+
+        <label for="servings">Servings:</label>
+        <input type="number" id="servings" name="servings" required placeholder="Enter number of servings">
+
+        <label for="prepTime">Preparation Time:</label>
+        <input type="text" id="prepTime" name="prepTime" required placeholder="Enter preparation time">
+
+        <label for="cookTime">Cook Time:</label>
+        <input type="text" id="cookTime" name="cookTime" required placeholder="Enter cook time">
+
+        <label for="coverImage">Cover Image URL:</label>
+        <input type="url" id="coverImage" name="coverImage" required placeholder="Enter cover image URL">
+
+        <button type="button" class="add-button" onclick="addRecipe()">Add Recipe</button>
+    </form>
+    <footer class="footer">&copy; 2024 Food&Cook. All Rights Reserved.</footer>
+    <script>
+        function addRecipe() {
+            // Fetch the form values
+            const recipeName = document.getElementById('recipeName').value;
+            const cuisine = document.getElementById('cuisine').value;
+            const ingredients = document.getElementById('ingredients').value.split('\n');
+            const instructions = document.getElementById('instructions').value.split('\n');
+            const servings = parseInt(document.getElementById('servings').value);
+            const prepTime = document.getElementById('prepTime').value;
+            const cookTime = document.getElementById('cookTime').value;
+            const coverImage = document.getElementById('coverImage').value;
+            const form = document.getElementById('addRecipeForm')
+            // Create a new recipe object
+            const newRecipe = {
+                recipeName,
+                cuisine,
+                ingredients,
+                instructions,
+                servings,
+                prepTime,
+                cookTime,
+                coverImage,
+                id: Date.now()
+            };
+    
+            console.log("New Recipe:", newRecipe);
+    
+            // Check if there are existing recipes in localStorage
+            if (!localStorage.getItem('recipe')) {
+                // If there are no recipes, create an array with the new recipe
+                localStorage.setItem('recipe', JSON.stringify([newRecipe]));
+                form.reset();
+
+            } else {
+                const myRecipe = JSON.parse(localStorage.getItem('recipe'));
+    
+                // Add the new recipe to the existing ones
+                myRecipe.push(newRecipe);
+    
+                // Update the localStorage with the updated recipes array
+                localStorage.setItem('recipe', JSON.stringify(myRecipe));
+                form.reset();
+                console.log("added",myRecipe);
+            }
+        }
+    </script>
+    
+</body>
+</html>
